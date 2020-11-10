@@ -28,4 +28,4 @@ flask run
 
 # Website Screenshots
 
-<img src="application/screenshots/ss1.PNG">
+<img src="application/screenshots/ss1.png">
