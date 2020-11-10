@@ -1,5 +1,7 @@
 # currency-converter
 A simple web-app. Made with flask also using REST api and Postgres sql.
+<img src="https://thumbs.gfycat.com/TatteredTintedIberianmidwifetoad-size_restricted.gif" width="60%">
+
 
 # How to run the app
 - download and install python, add python to path
