@@ -35,4 +35,4 @@ flask run
 <img src="application/screenshots/ss2.png" width="60%">
 
 # Demo
-<img src="application/screenshots/demo.gif" width="60%">
+<img src="application/screenshots/demo.gif">
