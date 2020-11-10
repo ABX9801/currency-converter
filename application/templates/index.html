@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Exchange
+{% endblock %}
+
+{% block body %}
+<div id="top">Currency Exchange</div>
+<div class="image">
+    <img src="https://media2.giphy.com/media/JtBZm3Getg3dqxK0zP/giphy-downsized-large.gif" width="700px" height="500px">
+</div>
+<div>
+    <form action="{{url_for('index')}}" method="post">
+        <div>
+            <input name="base" list = 'currency_list'>
+            <input name = 'amount' type="number" placeholder="enter the base amount" min="0">
+            <input name='end' list = 'currency_list'>
+            <datalist id = 'currency_list'>
+                {% for currency in currencies %}
+                <option value="{{currency.code}}"></option>
+                {% endfor %}
+            </datalist>
+        </div>
+
+        <div class="container">
+            <button type="submit" class="btn btn-primary">Convert</button>
+        </div>
+    </form>
+</div>
+
+<div class="container">
+    <button type="submit" class="btn btn-success">{{output}}</button>
+    
+</div>
+{% endblock %}
