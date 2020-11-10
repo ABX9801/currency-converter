@@ -35,6 +35,4 @@ flask run
 <img src="application/screenshots/ss2.png" width="60%">
 
 # Demo
-<video width="320" height="240" controls autoplay>
-  <source src="application/screenshots/demo.mp4" type="video/mp4">
-</video>
+<img src="application/screenshots/demo.gif" width="60%">
